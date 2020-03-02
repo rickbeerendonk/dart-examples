@@ -18,6 +18,12 @@ dart index.dart
 
 See: https://dart.dev/guides/language/effective-dart#the-guides
 
+## Specifications
+
+### Version 2
+
+https://dart.dev/guides/language/specifications/DartLangSpec-v2.2.pdf
+
 ## Licence
 
 European Union Public Licence version 1.2
