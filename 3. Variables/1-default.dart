@@ -2,8 +2,8 @@
 /*! Copyright © 2020 Rick Beerendonk          !*/
 
 main() {
-  // Variable (of type integer)
-  int v;
+  // Variable
+  var v;
   print(v);
 }
 
