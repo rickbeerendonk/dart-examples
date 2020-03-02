@@ -2,7 +2,7 @@
 /*! Copyright © 2020 Rick Beerendonk          !*/
 
 main() {
-  // Const declarations
+  // Const declarations (assign once, determine compile-time)
   const v1 = 'Dart';
   print(v1);
 
