@@ -6,5 +6,6 @@ main() {
   print("1: ${int.parse("1")}"); // 1: 1
   print("0xABC: ${int.parse("0xABC")}"); // 0xABC: 2748
 
-  // All non int strings (like "" or "2.34") lead to an error.
+  // All non int strings (like "", "false" or "2.34") lead to an error:
+  // FormatException: Invalid radix-10 number
 }
