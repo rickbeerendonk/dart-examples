@@ -3,7 +3,7 @@
 
 main() {
   // Function
-  foo() {
+  String foo() {
     return "Result";
   }
 

@@ -3,7 +3,7 @@
 
 main() {
   // Function
-  foo(int x) {
+  int foo(int x) {
     return x * x;
   }
 
