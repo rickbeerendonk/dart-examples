@@ -10,4 +10,4 @@ main() {
   print("${foo(2)} (${foo.runtimeType})");
 }
 
-// Closure: (int) => int -- 4 ((int) => int)
+// 4 ((int) => int)
