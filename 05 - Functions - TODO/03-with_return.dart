@@ -7,7 +7,7 @@ main() {
     return "Result";
   }
 
-  print("${foo} -- ${foo()} (${foo.runtimeType})");
+  print("${foo()} (${foo.runtimeType})");
 }
 
-// Closure: () => String -- Result (() => String)
+// Result (() => String)
