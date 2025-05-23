@@ -22,7 +22,7 @@ See: https://dart.dev/guides/language/effective-dart#the-guides
 
 ### Version 2
 
-https://dart.dev/guides/language/specifications/DartLangSpec-v2.2.pdf
+https://dart.dev/guides/language/specifications/DartLangSpec-v2.10.pdf
 
 ## Licence
 
