@@ -1,6 +1,8 @@
 # Dart examples
 
-Examples for Dart
+Examples for Dart.
+
+![](https://img.shields.io/github/license/rickbeerendonk/dart-examples.svg)
 
 ## Install
 
