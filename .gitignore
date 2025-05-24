@@ -40,3 +40,6 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
+
+# temporary files
+temp/
