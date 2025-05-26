@@ -2,6 +2,6 @@
 // Copyright © 2022 Rick Beerendonk
 
 void main() {
-  var str = "a" + "b";
+  const str = "a" + "b";
   print('String: "a" + "b": $str'); // String: "a" + "b": ab
 }
