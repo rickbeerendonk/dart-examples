@@ -3,13 +3,9 @@
 
 main() {
   // Function
-  String foo() {
-    return "Foo";
-  }
+  String foo() => "Foo";
 
-  String bar(Function func) {
-    return "Bar + " + func();
-  }
+  String bar(Function func) => "Bar + " + func();
 
   print("${bar(foo)} (${bar.runtimeType})");
 }

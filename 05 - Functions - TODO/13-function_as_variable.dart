@@ -3,9 +3,7 @@
 
 main() {
   // Function
-  var foo = () {
-    return "Foo";
-  };
+  var foo = () => "Foo";
 
   print("${foo()} (${foo.runtimeType})");
 }
