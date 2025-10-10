@@ -1,15 +1,14 @@
 /*! European Union Public License version 1.2 !*/
 /*! Copyright © 2020 Rick Beerendonk          !*/
 
-main() {
-  // Function
-  void foo() {
-    print("Function executed");
-  }
+void foo() {
+  print("Function executed");
+}
 
+main() {
   foo();
-  print("(${foo.runtimeType})");
+  print(foo.runtimeType);
 }
 
 // Function executed
-// (() => void)
+// () => void
