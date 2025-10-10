@@ -2,13 +2,21 @@
 /*! Copyright © 2020 Rick Beerendonk          !*/
 
 main() {
-  // Function
-  foo() {
-    print("Function executed");
-  }
+  print(foo);
 
-  print("${foo} -- ${foo()} (${foo.runtimeType})");
+  // Closure: () => dynamic from Function 'foo': static.
+
+  print(foo());
+
+  // Function executed
+  // null
+
+  print(foo.runtimeType);
+
+  // () => dynamic
 }
 
-// Function executed
-// Closure: () => Null -- null (() => Null)
+// Function
+foo() {
+  print("Function executed");
+}
