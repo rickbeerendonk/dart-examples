@@ -1,4 +1,4 @@
-# Variables
+# Build-in Types
 
 ## Documentation
 
