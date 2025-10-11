@@ -1,0 +1,9 @@
+# Patterns
+
+## Documentation
+
+https://dart.dev/language/patterns
+
+## Copyright
+
+Copyright (c) 2020-2025 Rick Beerendonk
