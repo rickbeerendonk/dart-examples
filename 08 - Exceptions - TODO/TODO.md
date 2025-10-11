@@ -1,1 +1,1 @@
-https://dart.dev/guides/language/language-tour#exceptions
+https://dart.dev/language/error-handling
