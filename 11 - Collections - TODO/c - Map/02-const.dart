@@ -4,7 +4,7 @@
 void main() {
   var constantMap = const {'one': 1, 'two': 2, 'three': 3};
 
-  // nsupported operation: Cannot modify unmodifiable map
+  // Unsupported operation: Cannot modify unmodifiable map
   //constantMap['four'] = 4;
 
   print(constantMap);
