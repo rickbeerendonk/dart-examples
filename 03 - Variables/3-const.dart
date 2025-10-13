@@ -6,6 +6,7 @@ main() {
   const v1 = 'Dart';
   print(v1);
 
+  // Const declarations with explicit type
   const String v2 = 'Dart';
   print(v2);
 
