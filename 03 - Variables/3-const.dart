@@ -10,8 +10,8 @@ main() {
   const String v2 = 'Dart';
   print(v2);
 
-  // Uncomment = Error: Setter not found: 'v1'
-  //v1 = 'Changed';
+  // Error: Can't assign to the const variable 'v1'.
+  v1 = 'Changed';
 }
 
 // Dart
