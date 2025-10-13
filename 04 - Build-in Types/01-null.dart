@@ -3,7 +3,7 @@
 
 void main() {
   var v = null;
-  print(v);
+  print("${v} (${v.runtimeType})");
 }
 
-// null
+// null (Null)
