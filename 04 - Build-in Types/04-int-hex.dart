@@ -2,7 +2,6 @@
 /*! Copyright © 2020 Rick Beerendonk          !*/
 
 main() {
-  // Variable
   var v1 = 0xABC;
   print("${v1} (${v1.runtimeType})");
 
