@@ -3,8 +3,13 @@
 
 main() {
   // Variable with default value null
+  // Type is dynamic
   var v;
-  print(v);
-}
 
-// null
+  print(v); // null
+
+  // Assign different types possible
+  v = 10;
+  v = 'ten';
+  v = true;
+}
