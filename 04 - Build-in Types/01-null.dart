@@ -2,7 +2,7 @@
 /*! Copyright © 2025 Rick Beerendonk          !*/
 
 void main() {
-  var v;
+  var v = null;
   print(v);
 }
 
