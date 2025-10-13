@@ -7,6 +7,9 @@ main() {
   // Final declaration (assign once, determine run-time)
   final v1 = Random.secure().nextInt(10);
   print(v1);
+
+  // Error: Can't assign to the final variable 'v1'.
+  v1 = Random.secure().nextInt(10);
 }
 
 // <different number every execution>
