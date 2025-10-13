@@ -2,13 +2,15 @@
 /*! Copyright © 2020 Rick Beerendonk          !*/
 
 main() {
-  // Variable declarations
+  // Variable type inference
   var v1 = 'Dart';
   print(v1);
 
+  // Variable explicit type
   dynamic v2 = 'Dart';
   print(v2);
 
+  // Variable explicit type
   String v3 = 'Dart';
   print(v3);
 }
