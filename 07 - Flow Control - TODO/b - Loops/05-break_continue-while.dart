@@ -1,5 +1,5 @@
 // European Union Public License version 1.2
-// Copyright © 2024-2025Rick Beerendonk
+// Copyright © 2024-2025 Rick Beerendonk
 
 void main() {
   int i = 0;
