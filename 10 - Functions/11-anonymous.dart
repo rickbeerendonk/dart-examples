@@ -2,11 +2,11 @@
 /*! Copyright © 2020 Rick Beerendonk          !*/
 
 // Anonymous Function
-var add = (x) {
+int Function(int) add = (x) {
   return x + x;
 };
 
-var multiply = (a, b) => a * b;
+int Function(int, int) multiply = (a, b) => a * b;
 
 main() {
   print(add(1));
@@ -17,7 +17,7 @@ main() {
 }
 
 // 2
-// (dynamic) => dynamic
+// (int) => int
 
 // 6
-// (dynamic, dynamic) => dynamic
+// (int, int) => int
