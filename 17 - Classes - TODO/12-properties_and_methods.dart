@@ -7,6 +7,11 @@ void main() {
   account.withdraw(200.0);
   account.displayBalance();
 
+  // Accessing private member directly (not recommended, but possible within the same file)
+  print(
+    'Account holder (via private account._accountHolder): ${account._accountHolder}',
+  );
+
   // Using getters
   print('Account holder: ${account.accountHolder}');
   print('Current balance: \$${account.balance}');
@@ -25,7 +30,8 @@ void main() {
 }
 
 class BankAccount {
-  // Private field (starts with _)
+  // Private to the LIBRARY (file)
+  // (starts with _)
   String _accountHolder;
   double _balance;
 
