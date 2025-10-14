@@ -5,8 +5,8 @@ import 'dart:math';
 
 class Point {
   // Instance variables
-  double x;
-  double y;
+  final double x;
+  final double y;
 
   // Constructor
   Point(this.x, this.y);
