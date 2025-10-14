@@ -3,7 +3,7 @@
 
 String foo() => "Foo";
 
-String bar(Function func) => "Bar + " + func();
+String bar(String Function() func) => "Bar + " + func();
 
 main() {
   print(bar(foo));
