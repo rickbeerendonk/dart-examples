@@ -6,17 +6,16 @@ main() {
 
   // Closure: () => dynamic from Function 'foo': static.
 
-  print(foo());
+  foo();
 
   // Function executed
-  // null
 
   print(foo.runtimeType);
 
-  // () => dynamic
+  // () => void
 }
 
 // Function
-foo() {
+void foo() {
   print("Function executed");
 }
