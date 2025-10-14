@@ -9,7 +9,7 @@ main() {
   print(v); // null
 
   // Assign different types possible
-  v = 10;
   v = 'ten';
+  v = 10;
   v = true;
 }
