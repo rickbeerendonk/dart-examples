@@ -2,10 +2,11 @@
 /*! Copyright © 2020 Rick Beerendonk          !*/
 
 main() {
-  // Variable
+  // Implicit
   var v1 = 1;
   print("${v1} (${v1.runtimeType})");
 
+  // Explicit
   int v2 = 2;
   print("${v2} (${v2.runtimeType})");
 
