@@ -8,21 +8,25 @@ void main() {
 
   // Single line
   print(
-    'bool: $boolean, number+1: ${number + 1}, text: $text (length: ${text.length}), slash: \\, double quotes: "',
+    'bool: $boolean, number+1: ${number + 1}, text: $text (length: ${text.length}), dollar: \$, slash: \\, double quotes: "',
   );
-  // bool: true, number+1: 124, text: abc (length: 3), slash: \, double quotes: "
+  // bool: true, number+1: 124, text: abc (length: 3), dollar: $, slash: \, double quotes: "
 
   // Multi line
   print('''
 bool: $boolean
 number+1: ${number + 1}
 text: $text (length: ${text.length})
+dollar: \$
 slash: \\
+single quotes: '
 double quotes: "
 ''');
   // bool: true
   // number+1: 124
   // text: abc (length: 3)
+  // dollar:
   // slash: \
+  // single quotes: '
   // double quotes: "
 }
