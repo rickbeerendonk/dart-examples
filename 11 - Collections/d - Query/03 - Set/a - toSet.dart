@@ -4,7 +4,7 @@
 void main() {
   Iterable<int> numbers = [1, 3, 1, 4, 2, 3, 2, 4];
 
-  var distinctNumbers = numbers.toSet();
+  Iterable<int> distinctNumbers = numbers.toSet();
 
   for (var number in distinctNumbers) {
     print(number);
