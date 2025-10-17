@@ -8,6 +8,8 @@ class A {
 class B extends A {
   @override
   void greet() => print('Hello from B');
+
+  void other() => print('Other method in B');
 }
 
 class C extends A {
@@ -20,15 +22,14 @@ class C extends A {
 
 void main() {
   A a = A();
-  a.greet();
-  // Hello from A
+  a.greet(); // ???
 
   A b = B();
-  b.greet();
-  // Hello from B
+  b.greet(); // ???
+  if (b is B) {
+    b.other();
+  }
 
   A c = C();
-  c.greet();
-  // Hello from A
-  // Hello from C
+  c.greet(); // ???
 }
